@@ -1,8 +1,8 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'saa-app',
-  template: `
+    selector: 'saa-app',
+    template: `
       <header>
           <h1>Styling Angular Applications</h1>
           <em>For Modern Angular Applications</em>
@@ -10,7 +10,8 @@ import { Component } from '@angular/core';
       <div>
           <saa-app-nav></saa-app-nav>
       </div>
-  `
+  `,
+    standalone: false
 })
 
 export class AppComponent {
