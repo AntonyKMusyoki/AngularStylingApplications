@@ -4,26 +4,8 @@ import { Component, ViewEncapsulation } from '@angular/core';
     selector: 'saa-app-nav',
     // encapsulation: ViewEncapsulation.None,
     template: `
-        <div>
-            <ul>
-                <li>
-                    <a href="#">Home</a>
-                </li>
-                <li>
-                    <a href="#">Prerequisites</a>
-                </li>
-                <li>
-                    <a href="#">Modules</a>
-                </li>
-                <li>
-                    <a href="#">About</a>
-                </li>
-            </ul>
-        </div>
-    `,
-    styles: [`
-
-        div {
+        <style>
+            div {
             background: #2A9FBC;
             border-radius: 0.5em;
             margin: 1.5em 0;
@@ -46,8 +28,24 @@ import { Component, ViewEncapsulation } from '@angular/core';
         a:hover {
             text-decoration: underline;
         }
-
-    `],
+        </style>
+        <div>
+            <ul>
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#">Prerequisites</a>
+                </li>
+                <li>
+                    <a href="#">Modules</a>
+                </li>
+                <li>
+                    <a href="#">About</a>
+                </li>
+            </ul>
+        </div>
+    `,
     standalone: false
 })
 
