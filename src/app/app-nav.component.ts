@@ -21,7 +21,7 @@ import { Component, ViewEncapsulation } from '@angular/core';
             </ul>
         </div>
     `,
-    styleUrls: ['./app-nav.component.css'],
+    styleUrls: ['./app-nav.component.scss'],
     standalone: false
 })
 
